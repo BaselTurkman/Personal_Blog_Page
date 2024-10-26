@@ -1,0 +1,33 @@
+@media (max-width: 450px) {
+   
+    header {
+        padding: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .section-a {
+        margin-top: 0px;
+        height: 120vh;
+    }
+
+    .section-a h2 span {
+        color: rgb(8, 85, 252);
+        font-size: 1em;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-header {
+        grid-column: span 1;
+    }
+
+    .grid-content {
+        grid-column: span 1;
+    }
+}

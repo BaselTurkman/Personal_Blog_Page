@@ -1,0 +1,143 @@
+@import url(base.css);
+@import url(header.css);
+@import url(footer.css);
+@import url(responsive.css);
+
+.projects {
+    background-color: #000016 ;
+    padding: 30px 0;
+}
+
+.projects .title {
+    text-align: center;
+    color: #0059FF;
+    font-weight: 700;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 50px;
+    padding: 0 50px;
+}
+
+.project-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.imgs img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.info-projects {
+    padding: 20px;
+}
+
+.info-projects p {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.info-projects strong {
+    font-weight: 700;
+    font-size: 1.2em;
+    color: #0059FF;
+}
+
+.details-project{
+    display: flex;
+    justify-content: space-between;
+}
+
+.images{
+    width: 370px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #0059FF;
+    transition: color 0.3s ease;
+}
+
+.project-link:hover {
+    color: #C200FD;
+}
+
+@media (max-width: 600px) {
+    .projects .title {
+        font-size: 2em;
+        margin-bottom: 30px;
+    }
+
+    .content {
+        padding: 0 20px;
+    }
+
+    .project-card {
+        margin-bottom: 20px;
+    }
+
+    .images {
+        width: 100%;
+        height: auto; 
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .projects .title {
+        font-size: 2.2em;
+        margin-bottom: 35px;
+    }
+
+    .content {
+        padding: 0 30px;
+    }
+
+    .project-card {
+        margin-bottom: 30px;
+    }
+
+    .images {
+        width: 100%; 
+        height: auto; 
+    }
+}
+
+@media (min-width: 901px) {
+    .projects .title {
+        font-size: 2.5em; 
+        margin-bottom: 40px;
+    }
+
+    .content {
+        padding: 0 50px; 
+    }
+
+    .project-card {
+        margin-bottom: 40px; 
+    }
+
+    .images {
+        width: 370px; 
+        height: 200px;
+    }
+}

@@ -1,0 +1,11 @@
+.info-services{
+    padding: 5px;
+    margin-top: 6px;
+}
+
+.info-services h2{
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: 500;
+    color: rgb(0, 89, 255);
+}

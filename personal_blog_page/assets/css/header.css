@@ -1,0 +1,29 @@
+header {
+    background-color: whitesmoke;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .loga {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 30px;
+    color: rgb(10, 48, 216);
+    padding-left: 30px;
+}
+
+.links a {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 1.2em;
+    margin-right: 1.2em;
+    color: rgb(8, 85, 252);
+    text-transform: capitalize;
+}
+
+.links a:hover {
+    color: rgb(194, 0, 253);
+}
