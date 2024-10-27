@@ -3,13 +3,17 @@ This project is part of the Front End Web Development Nanodegree Program by Udac
 
 Overview
 The Personal Blog Page is a static website that serves as a personal blog. It includes a homepage, blog posts, and an about section. The design is clean and minimalist, focusing on readability and user experience.
-Features.
 
-Responsive design for optimal viewing on different devices
-Simple and intuitive navigation
-A clean layout that highlights content
-Basic styling using CSS
+Features:
 
-Technologies Used
-HTML
-CSS
+Responsive design for optimal viewing on different devices.
+
+Simple and intuitive navigation.
+
+A clean layout that highlights content.
+
+Basic styling using CSS.
+
+Technologies Used:
+HTML.
+CSS.
